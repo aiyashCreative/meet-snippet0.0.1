@@ -22,10 +22,10 @@ sweetAlert2Script.setAttribute('src', "https://cdn.jsdelivr.net/npm/sweetalert2@
 socketClientScript.setAttribute('src', "https://cdn.socket.io/4.6.0/socket.io.min.js")
 socketClientScript.setAttribute('crossorigin', "anonymous")
 axiosScript.setAttribute('src', "https://unpkg.com/axios/dist/axios.min.js")
-axiosLibrary.setAttribute('src', "https://cdn.jsdelivr.net/gh/aiyashCreative/meet-snippet/libraries/axios.js")
-envScript.setAttribute('src', "https://cdn.jsdelivr.net/gh/aiyashCreative/meet-snippet/constants/env.js")
+axiosLibrary.setAttribute('src', "https://cdn.jsdelivr.net/gh/aiyashCreative/meet-snippet0.0.1/libraries/axios.js")
+envScript.setAttribute('src', "https://cdn.jsdelivr.net/gh/aiyashCreative/meet-snippet0.0.1/constants/env.js")
 bootstrapBundleScript.setAttribute('src', "https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js")
-watchScript.setAttribute('src', "https://cdn.jsdelivr.net/gh/aiyashCreative/meet-snippet/libraries/watch.js")
+watchScript.setAttribute('src', "https://cdn.jsdelivr.net/gh/aiyashCreative/meet-snippet0.0.1/libraries/watch.js")
 
 const socketUrl = "https://marketrix-soc.creative-hub.co/"
 // const socketUrl = "http://192.168.1.76:8081"
@@ -80,7 +80,7 @@ const start = () => {
     div.setAttribute("id", "modal")
     document.body.append(div)
 
-    fetch(`https://cdn.jsdelivr.net/gh/aiyashCreative/meet-snippet/pages/modal.html`)
+    fetch(`https://cdn.jsdelivr.net/gh/aiyashCreative/meet-snippet0.0.1/pages/modal.html`)
         .then((response) => {
             return response.text()
         })
